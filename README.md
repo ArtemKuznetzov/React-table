@@ -1,5 +1,5 @@
 How to run this project?
-
+#npm install
 #npm start
 
 Which version of node js should I use?
