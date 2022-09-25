@@ -3,9 +3,9 @@
 * npm start
 
 # Which version of node js should I use?
-*node v14.12.0 or higher
+* node v14.12.0 or higher
 
-#About this project:
+# About this project:
 Субъективные плюсы таблицы: 
 1. Хорошая оптимизация 
 2. Возможность работы с большим количеством данных, т.к. в таблице есть страницы, которые можно переключать
