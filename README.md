@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# How to run this project?
+* npm install
+* npm start
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Which version of node js should I use?
+* node v14.12.0 or higher
 
-## Available Scripts
+# About this project:
+Субъективные плюсы таблицы: 
+1. Хорошая оптимизация 
+2. Возможность работы с большим количеством данных, т.к. в таблице есть страницы, которые можно переключать
+3. Переиспользование компонента таблицы
+4. Очень веселая таблица
 
-In the project directory, you can run:
+Субъективные минусы: 
+1. Не хватило времени доделать до конца. Отсутствует:
+- визуальное обновление количества сотрудников в таблице. Успел реализовать подсчет сотрудников в сторе при удалении.
+- Выделение выбранных сотрудников цветом
+- Не успел реализовать таблицу сотрудников на основе запросов к jsonplaceholder. Использую замоканные данные для таблицы сотрудников.
+2. Сложности с добавлением нового функционала
 
-### `npm start`
+Я делал несколько таблиц, пытаясь найти самый лучший вариант. В силу нехватки времени решил остановиться на библиотеке ract-table. Эта библиотека, как оказалась, удобна для реализации одной таблицы. Я же пытался следовать принципу DRY, дабы была возможность переиспользовать один компонент для двух таблиц. Но библиотека была против меня и данного принципа. Я без проблем мог обновить состояние в сторе, однако заставить ее отображать данные оттуда оказалось сложнее, чем казалось изначально. 
+Изначально планировал добавлять данные в таблицу сотрудников на основе id выбранных компаний, однако по какой-то причине, переменная selectedFlatRows, данная мне библиотекой react-table, отображала нажатый чекбокс только со второго раза, в то время как с первого нажатия уже в проверках приходило значение true. Любые другие действия с этой переменной также вызывали большие проблемы
+Поэтому пришлось добавлять данные сотрдников сразу же, при первичном рендере. Из-за этого появились проблемы в подсчете страниц в таблице сотрудников
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+P.s я искренне надеюсь, что вложенных в этот небольшой проект бессонных ночей, эмоциональных качелей будет достаточно, чтобы у меня была возможность попасть на техническое интервью. Если же нет, то спасибо, что потратили время на мою работу
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Вот вам прекрасное видео напоследок:
+* https://www.youtube.com/watch?v=GtL1huin9EE&ab_channel=CSAAInsuranceGroup%2CaAAAInsurer
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
