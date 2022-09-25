@@ -1,0 +1,16 @@
+[
+  {
+    "company_name": "Gloria",
+    "employee_mount": 2,
+    "company_address": "Pushkina str.",
+    "company_id": 1234,
+    "is_company_selected": false
+  },
+  {
+    "company_name": "Petrovich",
+    "employee_mount": 1,
+    "company_address": "Kolotushkina str.",
+    "company_id": 12345,
+    "is_company_selected": false
+  }
+]

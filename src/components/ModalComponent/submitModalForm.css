@@ -1,0 +1,40 @@
+.modal-form {
+  display: flex;
+}
+
+.company-name,
+.employee-firstName {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-input {
+  width: 288px;
+  margin-left: 20px;
+}
+
+.modal-input[placeholder="Enter your company address"] {
+  margin-top: 5px;
+  padding-left: 5px;
+}
+
+.submit-button {
+  margin-top: 20px;
+  margin-left: 5%;
+
+  width: 90%;
+}
+
+/* .content {
+  top: "50%";
+  left: "50%";
+  right: "auto";
+  bottom: "auto";
+  margin-right: "-50%";
+  transform: "translate(-50%, -50%)";
+} */

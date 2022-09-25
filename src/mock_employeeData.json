@@ -1,0 +1,90 @@
+[
+  {
+    "first_name": "Sucrose",
+    "second_name": "Monstadt",
+    "position": "Alchemist",
+    "employee_id": 123,
+    "company_id": 0,
+    "is_employee_selected": false
+  },
+  {
+    "first_name": "Ilya",
+    "second_name": "Maddison",
+    "position": "Ded",
+    "employee_id": 12345,
+    "company_id": 1,
+    "is_employee_selected": false
+  },
+  {
+    "first_name": "Dovakhiin",
+    "second_name": "Skyrim",
+    "position": "Cheese Thief",
+    "employee_id": 123456,
+    "company_id": 2,
+    "is_employee_selected": false
+  },
+  {
+    "first_name": "Mechenyi",
+    "second_name": "Chernobil",
+    "position": "Lovec Maslin",
+    "employee_id": 1234567,
+    "company_id": 3,
+    "is_employee_selected": false
+  },
+  {
+    "first_name": "2B",
+    "second_name": "Android",
+    "position": "Waifu",
+    "employee_id": 12345678,
+    "company_id": 4,
+    "is_employee_selected": false
+  },
+  {
+    "first_name": "Shaman",
+    "second_name": "King",
+    "position": "Syetolog for spirits",
+    "employee_id": 123456789,
+    "company_id": 5,
+    "is_employee_selected": false
+  },
+  {
+    "first_name": "Edvard",
+    "second_name": "Elrick",
+    "position": "Short alchemist",
+    "employee_id": 123467890,
+    "company_id": 6,
+    "is_employee_selected": false
+  },
+  {
+    "first_name": "Alfonso",
+    "second_name": "Elrick",
+    "position": "Steel alchemist",
+    "employee_id": 12345678901,
+    "company_id": 7,
+    "is_employee_selected": false
+  },
+  {
+    "first_name": "Techno",
+    "second_name": "Viking",
+    "position": "Dancer",
+    "employee_id": 12345678901,
+    "company_id": 8,
+    "is_employee_selected": false
+  },
+  {
+    "first_name": "Varg",
+    "second_name": "Vikernes",
+    "position": "Musician",
+    "employee_id": 123456789012,
+    "company_id": 9,
+    "is_employee_selected": false
+  },
+  {
+    "first_name": "Ilya",
+    "second_name": "Maddison",
+    "position": "Ded",
+    "employee_id": 1234567890123,
+    "company_id": 10,
+    "is_employee_selected": false
+  }
+]
