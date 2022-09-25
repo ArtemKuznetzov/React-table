@@ -12,7 +12,7 @@ export const COMPANY_COLUMNS = [
         accessor: "employee_mount",
       },
       {
-        Header: "Addess",
+        Header: "Address",
         accessor: "company_address",
       },
     ],
