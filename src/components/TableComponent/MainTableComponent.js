@@ -31,7 +31,7 @@ const customStyles = {
   },
 };
 
-function CompanyTable({ tableColumns, tableName }) {
+function MainTable({ tableColumns, tableName }) {
   // Redux hooks
   const submitButtonClicked = useSelector((state) => state.submitButtonClicked);
   const rememberSelectedRow = useSelector((state) => state.rememberSelectedRow);
@@ -172,4 +172,4 @@ function CompanyTable({ tableColumns, tableName }) {
   );
 }
 
-export default CompanyTable;
+export default MainTable;
